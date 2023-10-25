@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    margin: 0;
+}
+.search-bar {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-bar button {
+    background-color: #555;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+    background-color: #777;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio-item {
+    text-align: center;
+    margin: 20px;
+    height: 150px;
+}
+
+.portfolio-item img {
+    max-width: 100%;
+    height: auto;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+    bottom: 0;
+}
+
+
+
+
+.footer {
+    background: linear-gradient(to right, #ff6b6b, #f9c74f);
+    color: white;
+    padding: 0 0;
+    margin-top: 200px;
+
+
+    text-align: center;
+    width: 100%;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    margin: 0 20px;
+    text-align: left;
+}
+
+.column h2 {
+    font-size: 20px;
+}
+
+.column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-credits {
+    margin-top: 60px;
+
+}
